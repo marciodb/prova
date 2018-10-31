@@ -11,7 +11,7 @@ public class PageObjectsTest {
     private WebDriver navegador;
 
     @Before
-    public void setUp() {
+    public void createChrome() {
         navegador = Web.createChrome();
     }
 

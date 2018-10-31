@@ -16,9 +16,7 @@ public class ColocarNoCarrinho {
         this.navegador = navegador;
     }
 
-    public ColocarNoCarrinho() {
 
-    }
 
     public CriarEmail adicionarNocarrinho() {
 
@@ -39,3 +37,5 @@ public class ColocarNoCarrinho {
         return new CriarEmail(navegador);
     }
 }
+
+

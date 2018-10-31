@@ -1,6 +1,5 @@
 package EscolherProduto;
 
-import com.sun.xml.internal.bind.v2.runtime.reflect.opt.Const;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
