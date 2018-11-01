@@ -11,6 +11,7 @@ public class Web {
 
         //Abre o navegador
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\marciod\\drivers\\chromedriver.exe");
+        //System.setProperty("webdriver.gecko.driver", "C:\\Users\\marciod\\Downloads\\geckodriver-v0.22.0-win64\\geckodriver.exe");
         WebDriver navegador = new ChromeDriver();
         navegador.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
